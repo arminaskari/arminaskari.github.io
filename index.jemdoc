@@ -23,4 +23,4 @@ My research interests are broadly in optimization, machine learning and control 
 == Publications
 - *Naive Feature Selection: Sparsity in Naive Bayes* \n Armin Askari, Alexandre d'Aspremont, Laurent El Ghaoui \n AISTATS 2020. \[[https://arxiv.org/pdf/1905.09884.pdf ArXiv]\]
 - *Linearly Convergent Frank-Wolfe with Backtracking Line-Search* \n Fabian Pedregosa, Geoff Negiar, Armin Askari, Martin Jaggi\n AISTATS 2020. \[[https://storage.googleapis.com/pub-tools-public-publication-data/pdf/6b5b1121cfcf7130d90bb5bc0bc15db1230078ed.pdf ArXiv]\]
-- *Fenchel Lifted Networks: A Lagrange Relaxation of Neural Network Training* \n Fangda Gu*, Armin Askari*, Laurent El Ghaoui \n SIATST 2020. \[[https://arxiv.org/pdf/1811.08039.pdf ArXiv]\]
+- *Fenchel Lifted Networks: A Lagrange Relaxation of Neural Network Training* \n Fangda Gu\*, Armin Askari\*, Laurent El Ghaoui \n AISTATS 2020. \[[https://arxiv.org/pdf/1811.08039.pdf ArXiv]\]
