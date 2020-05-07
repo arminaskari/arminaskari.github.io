@@ -1,0 +1,26 @@
+# jemdoc:
+= Armin Askari
+
+~~~
+{}{img_left}{images/profile.jpg}{Picture}{210}{300}{}
+*Armin Askari* \n
+/Ph.D Student/ \n
+[https://eecs.berkeley.edu/ Electrical Engineering \& Computer Science] \n
+[https://www.berkeley.edu/ UC Berkeley] \n
+\n \n
+I am a third year Ph.D student in Electrical Engineering \& Computer Science at UC Berkeley advised by [https://people.eecs.berkeley.edu/~elghaoui/ Laurent El Ghaoui]. Prior to my PhD, I received a B.A. in Applied Mathematics and B.S.c in Mechanical Engineering from UC Berkeley, where I was fortunate to work with [https://www2.eecs.berkeley.edu/Faculty/Homepages/varaiya.html Pravin Varaiya] and the late [https://me.berkeley.edu/news/andy-packard-professor-pioneer-in-robust-control-systems-and-beloved-teacher-1960-2019/ Andy Packard]. I had also spent some time working at the University of Toronto Institute for Aerospace Studies with [https://www.utias.utoronto.ca/research/computational-aerodynamics/ David Zingg].
+\n \n
+You can find a link to my resume [docs/cv/cv.pdf here].
+~~~
+
+== Research Interests
+My research interests are broadly in optimization, machine learning and control theory. Currently, I'm particularly interested in the following topics:
+
+- Design of efficient/scalable algorithms for large scale feature selection
+- Robust optimization, out-of-sample generalization and domain adaptation
+
+
+== Publications
+- *Naive Feature Selection: Sparsity in Naive Bayes* \n Armin Askari, Alexandre d'Aspremont, Laurent El Ghaoui \n AISTATS 2020. \[[https://arxiv.org/pdf/1905.09884.pdf ArXiv]\]
+- *Linearly Convergent Frank-Wolfe with Backtracking Line-Search* \n Fabian Pedregosa, Geoff Negiar, Armin Askari, Martin Jaggi\n AISTATS 2020. \[[https://storage.googleapis.com/pub-tools-public-publication-data/pdf/6b5b1121cfcf7130d90bb5bc0bc15db1230078ed.pdf ArXiv]\]
+- *Fenchel Lifted Networks: A Lagrange Relaxation of Neural Network Training* \n Fangda Gu*, Armin Askari*, Laurent El Ghaoui \n SIATST 2020. \[[https://arxiv.org/pdf/1811.08039.pdf ArXiv]\]

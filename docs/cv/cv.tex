@@ -1,0 +1,185 @@
+ %%%%%%%%%%%%%%%%% PREAMBLE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Change the font size of your document - 10pt, 12.1pt, etc.
+\documentclass[letterpaper,10pt,oneside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{comment}
+\usepackage{graphicx}
+\graphicspath{ {images/}} %upload your signature to this file
+%Change the margins to fit your CV/resume content
+\usepackage[left=1in, right=1in, bottom=1in, top=1in]{geometry}
+
+%Skype information - include your Skype name for a link to add you on Skype
+\newcommand*{\Skype}{\href{skype:john.smith?add}{john.smith}} 
+\newcommand{\Absender}[1][\normalsize]{\Skype} 
+
+%Changes the page numbers - {arabic}=arabic numerals, {gobble}=no page numbers, {roman}=Roman numerals
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%% NAME OF APPLICANT %%%%%%%%%%%%%%%%%%%
+
+\noindent \LARGE{\textbf{Armin Askari}} \hspace{89mm}  \small{aaskari@berkeley.edu}\\
+\vspace{-2ex} 
+\noindent \hrulefill\\
+\normalsize
+
+
+%%%%%%%%%%%%%%%%% CONTACT INFORMATION %%%%%%%%%%%%%%%%%
+% Your email address, website, and Skype name are links to send email, open your website and add you on Skype. 
+\begin{comment}
+\begin{center}
+\begin{tabular}{l l}
+ Name of University    & \hspace{1in} \href{mailto:john.smith@email.com}{john.smith@email.com} \\
+ Department/Institution    & \hspace{1in}  \href{www.johnsmith.com}{www.johnsmith.com}   \\
+ Address             & \hspace{1in} Skype: \Absender  \\
+ City Name, State 12345-6789 & \hspace{1in} Phone: +1 (123) 456-7899 \\
+\end{tabular}
+\end{center}
+\end{comment}
+
+%%%%%%%%%%%%%%%%% MAIN BODY %%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The main body is contained in a tabular environment. To move sections onto the next page, simply end the tabular environment and begin a new tabular environment.
+
+\noindent \begin{tabular}{@{} l l}
+ \Large{Education}    & \textbf{UC Berkeley} \\
+     & Ph.D., EECS, 2017 ---. \\
+     & \indent \small{Advised by: Prof. Laurent El Ghaoui}\\
+     & \indent Research Interests: Robust Optimization, Machine Learning, Control Theory \\
+     & \\
+     & \textbf{UC Berkeley} \\
+     & B.A., Applied Mathematics, B.Sc., Mechanical Engineering, 2017. \\
+     & \\
+\Large{Graduate} & Optimization (EE 227A/B/C), Real and Functional Analysis (Math 202A/B)\\
+ \Large{Coursework}  & \indent Theoretical Statistics (Stat 210A/B), Statistical Models: Theory and Application (Stat 215A/B) \\
+ & \indent High-dim Data Analysis with Low-dim Models (EE290T),   Robust Control (ME 234) \\      
+  & \indent Model Predictive Control (ME 231A), Linear and Nonlinear Systems (EE 221A/222)\\
+  &\\
+ %\Large{Dissertation}    & ``Title of Dissertation" \\
+    %& \parbox{5.0in}{Short description/summary of research and estimation techniques. This can be several lines long because of the paragraph box.}\\
+    %& \\
+     \Large{Publications}  
+      &  \textit{Naive Feature Selection: Sparsity in Naive Bayes}. AISTATS 2020. \\
+      & \indent \small{\textbf{Armin Askari},  Alex d'Aspremont, Laurent El Ghaoui}\\
+      &  \textit{Step-Size Adaptivity in Projection-Free Optimization}. AISTATS 2020. \\
+      & \indent \small{Fabian Pedregosa, \textbf{Armin Askari},  Geoffrey Negiar, Martin Jaggi}\\
+            &  \textit{Fenchel Lifted Networks: A Lagrange Relaxation of Neural Network Training}. AISTATS 2020. \\
+      & \indent  Fangda Gu*, \small{\textbf{Armin Askari*}, Laurent El Ghaoui}\\     
+     & \textit{Lifted Neural Networks for Weight Initialization}. NIPS Opt Workshop 2017. \\
+      & \indent \small{Geoffrey Negiar*, \textbf{Armin Askari*},  Fabian Pedregosa, Laurent El Ghaoui}\\
+      & \textit{Effect of Adaptive and Cooperative Adaptive Cruise Control on Throughput of Signalized} \\
+      & \textit{Arterials}. IV 2017. \\
+      & \indent \small{\textbf{Armin Askari},  Daniel A. Farias, Alex A. Kurzhanskiy, Pravin Varaiya}\\
+            &\\
+\Large{Preprints}  
+       &  \textit{Implicit Neural Networks}. arXiv  2019. \\
+      & \indent \small{Laurent El Ghaoui, Fangda Gu, Bertrand Travacca, \textbf{Armin Askari}}\\
+      &  \textit{Kernel-based Outlier Detection using the Inverse Christoffel Function}. arXiv 2018. \\
+      & \indent \small{\textbf{Armin Askari},  Forest Yang, Laurent El Ghaoui}\\
+      &  \textit{Frank-Wolfe Algorithm for Exemplar Selection}. arXiv  2018. \\
+      & \indent \small{Gary Cheng, \textbf{Armin Askari},  Laurent El Ghaoui, Kannan Ramchandran}\\
+ &  \textit{Lifted Neural Networks}. arXiv 2018. \\
+      & \indent \small{\textbf{Armin Askari},  Geoffrey Negiar, Rajiv Sambharya, Laurent El Ghaoui}\\
+      &  \textit{Measuring Impact of Adaptive and Cooperative Adaptive Cruise Control on Throughput} \\ 	       
+      & \textit{of Signalized Intersections}. arXiv 2017. \\
+      & \indent \small{\textbf{Armin Askari},  Daniel A. Farias, Alex A. Kurzhanskiy, Pravin Varaiya}\\
+      & \\
+    \Large{Work} & Research Internship, \textit{Genentech}, South San Francisco, Summer 2019\\
+    & Supervisor: Dr. Thomas Bengtsson and Dr. Yury Petrov \\
+    & Created synthetic CT scans with malignant tumours for classification using Cycle-GANs\\
+    &\\
+  \Large{Teaching}   & Graduate Student Instructor\\
+  &\textit{EE 227A/B/C---Optimization Models/Robust Optimization/ Optimization Algorithms}. \\
+     & Instructors: Laurent El Ghaoui \& Martin Wainwright UC Berkeley\\
+     & Fall 2019, Spring 2017, 2019, 2020 \\
+     \end{tabular}
+     \noindent \begin{tabular}{@{} l l}
+ \Large{Awards and }    & \textit{EECS Departmental Fellowship}. UC Berkeley, 2017-2018. \\
+  \Large{Fellowships}   & \textit{Departmental Citation Award}. UC Berkeley, 2017. \\
+     & \textit{Kortschak Scholars Finalist}. Caltech, 2017.\\
+     & \textit{Donald and Jeanne Short Scholarship}. UC Berkeley, 2016. \\
+     & \textit{Leman Rubin Merit Scholarship}. UC Berkeley, 2015.\\
+     & \textit{NSERC - Undergraduate Student Research Award}. University of Toronto, 2015.\\
+     & \textit{Tau Beta Pi Engineering Honor Society}. UC Berkeley, 2014.\\
+      & \textit{North American Collegiate Bridge Team Championships}. UC Berkeley, 2014, 2018, 2019\\
+     & \textit{World Youth Bridge Championships}. Canadian Bridge Federation, 2012/2016. \\
+\end{tabular}
+
+\newpage
+
+%%%%%%%%%%%%%%%%% REFERENCES %%%%%%%%%%%%%%%%%%%%%%%%%%
+% The reference section has links to your references' websites and email addresses.
+\begin{comment}
+\noindent \begin{tabular}{@{} l l l}
+ \Large{References} & \href{http://www.professorone.com}{Professor One} & \href{http://www.professortwo.com}{Professor Two} \\
+ & Department Name &  Department Name  \\
+ & University Name &  University Name \\
+ & \small{\href{mailto:prof1@email.com}{prof1@email.com},+1\,(123)\,456-7899} & \small{\href{mailto:prof2@email.com}{prof2@email.com},+1\,(987)\,654-3210} \\
+&& \\
+ & \href{http://www.professorthree.com}{Professor Three} & \href{http://www.professorfour.com}{Professor Four}  \\
+ & Department Name &  Department Name \\
+ & University Name &  University Name \\
+ & \small{\href{mailto:prof3@email.com}{prof3@email.com},+1\,(123)\,789-1011} & \small{\href{mailto:prof4@email.com}{prof4@email.com},+1\,(789)\,456-9879} \\
+\end{tabular}
+\end{comment}
+
+\begin{comment}
+\clearpage
+\setlength\parindent{0cm}
+\pagenumbering{gobble} %cover letter should be one page, {gobble}=no page number
+
+
+
+\begin{flushright}
+ \today                           \\
+ \vspace{1em}                              
+ Home University            \\
+ Home Department                  \\
+ Street Address                       \\
+ City, State. 12345-67899   \\
+ Phone: +1 (123) 456-7899         \\
+\href{mailto:john.smith@email.com}{john.smith@email.com}  \\ %insert your email address here for a clickable link
+\end{flushright}
+
+
+\begin{flushleft}
+ \textbf{Faculty Search Committee}         \\
+ Name of University \\
+Name of Department                  \\
+Address of Department \\
+City, State. Zip Code
+\end{flushleft}
+
+\vspace{2em}
+
+Dear Sir or Madam, \\
+
+\vspace{1em}
+\onehalfspacing
+
+My name is John Smith and I'm applying to the academic position in this subject at the Name of University. I have experience teaching something and something else and my research focuses on this and that. I completed my Ph.D. in this subject in September 2015 at my alma mater.
+
+\vspace{1em}
+
+My educational background is in this and that at the former university along with an earned Master's and Ph.D. degree in this recent subject at this alma mater. I have taught this, that, and everything else. My research is in this area, that area, and another area still.
+
+\vspace{1em}
+
+My dissertation advisor, Professor Head Adviser, and committee members Professor Two and Professor Three have been instrumental throughout my time at Home University. Please feel free to contact me with any questions.
+
+\vspace{1em}
+
+\begin{flushright}
+Sincerely, \\
+\vspace{1em} 
+\vspace{1em} 
+John Smith \\
+\end{flushright}
+\end{comment}
+
+\end{document}
+
