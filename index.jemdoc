@@ -14,7 +14,7 @@ You can find a link to my resume [docs/cv/cv.pdf here].
 ~~~
 
 == Research Interests
-My research interests are broadly in optimization, machine learning and control theory. Currently, I'm particularly interested in the following topics:
+My research interests are broadly in design of optimization models and algorithms for machine learning problems. Currently, I'm particularly interested in the following topics:
 
 - Design of efficient/scalable algorithms for large scale feature selection
 - Robust optimization, out-of-sample generalization and domain adaptation
