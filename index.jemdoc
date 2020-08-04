@@ -21,6 +21,7 @@ My research interests are broadly in designing optimization models and algorithm
 
 
 == Publications
+- *FANOK: Knockoffs in Linear Time* \n Armin Askari\*, Quentin Rebjock\*, Alexandre d'Aspremont, Laurent El Ghaoui \n In Submission. \[[https://arxiv.org/pdf/2006.08790.pdf ArXiv]\]
 - *Naive Feature Selection: Sparsity in Naive Bayes* \n Armin Askari, Alexandre d'Aspremont, Laurent El Ghaoui \n AISTATS 2020. \[[https://arxiv.org/pdf/1905.09884.pdf ArXiv]\]
 - *Linearly Convergent Frank-Wolfe with Backtracking Line-Search* \n Fabian Pedregosa, Geoff Negiar, Armin Askari, Martin Jaggi\n AISTATS 2020. \[[https://storage.googleapis.com/pub-tools-public-publication-data/pdf/6b5b1121cfcf7130d90bb5bc0bc15db1230078ed.pdf ArXiv]\]
 - *Fenchel Lifted Networks: A Lagrange Relaxation of Neural Network Training* \n Fangda Gu\*, Armin Askari\*, Laurent El Ghaoui \n AISTATS 2020. \[[https://arxiv.org/pdf/1811.08039.pdf ArXiv]\]
