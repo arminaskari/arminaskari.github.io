@@ -13,6 +13,12 @@ I am a third year Ph.D student in Electrical Engineering \& Computer Science at 
 [docs/cv/cv.pdf Resume] [https://scholar.google.com/citations?user=cnMxPRsAAAAJ&hl=en Google Scholar]
 ~~~
 
+== Research Interests
+My research interests are broadly in designing optimization models and algorithms for machine learning problems. Currently, I'm particularly interested in the following topics:
+
+- Design of efficient/scalable algorithms for large scale feature selection
+- Robust optimization, out-of-sample generalization and domain adaptation
+
 
 == Publications
 - *FANOK: Knockoffs in Linear Time* \n Armin Askari\*, Quentin Rebjock\*, Alexandre d'Aspremont, Laurent El Ghaoui \n In Submission. \[[https://arxiv.org/pdf/2006.08790.pdf ArXiv]\]
