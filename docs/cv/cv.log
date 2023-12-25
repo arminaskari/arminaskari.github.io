@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  3 AUG 2020 20:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  9 AUG 2023 09:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -299,38 +299,27 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 48.
 
-Overfull \hbox (63.94441pt too wide) in paragraph at lines 48--116
-[]
- []
-
-
-Overfull \hbox (12.97153pt too wide) in paragraph at lines 48--116
+Overfull \hbox (36.94116pt too wide) in paragraph at lines 48--124
 [] 
  []
 
 [1
 
-{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]pdfTeX w
-arning (ext4): destination with the same identifier (name{page.}) has been alre
-ady used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.117 \newpage
-               [2] Excluding 'comment' comment. Excluding 'comment' comment.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
-
-(./cv.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 189.
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Excluding 'comment' comment. Excluding 'comment' comment.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
+ (./cv.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
  ) 
 Here is how much of TeX's memory you used:
  5502 strings out of 492649
  82074 string characters out of 6129622
- 182654 words of memory out of 5000000
+ 180654 words of memory out of 5000000
  9364 multiletter control sequences out of 15000+600000
  5805 words of font info for 21 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -342,10 +331,10 @@ usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></us
 r/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/
 local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loc
 al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on cv.pdf (2 pages, 105534 bytes).
+Output written on cv.pdf (1 page, 104785 bytes).
 PDF statistics:
- 44 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
+ 41 PDF objects out of 1000 (max. 8388607)
+ 30 compressed objects within 1 object stream
  2 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
